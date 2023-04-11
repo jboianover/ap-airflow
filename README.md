@@ -1,3 +1,11 @@
+# ARM64 Support Docker Image
+
+Build with
+```bash
+docker buildx build --platform linux/arm64 -t ap-airflow:2.4.3-arm64 2.4.3/bullseye
+docker buildx build --platform linux/arm64 -t ap-airflow:2.4.3-arm64-onbuild -f 2.4.3/bullseye/Dockerfile.onbuild 2.4.3/bullseye
+```
+
 # Astronomer Core Docker Images
 
 [![docker-pulls](https://img.shields.io/docker/pulls/astronomerinc/ap-airflow.svg)](https://hub.docker.com/r/astronomerinc/ap-airflow)
