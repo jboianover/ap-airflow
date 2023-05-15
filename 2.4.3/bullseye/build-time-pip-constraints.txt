@@ -81,6 +81,8 @@ apache-airflow-providers-facebook==3.0.1
 apache-airflow-providers-ftp==3.1.0
 apache-airflow-providers-github==2.1.0
 apache-airflow-providers-google==8.4.0
+airflow-provider-great-expectations~=0.2.6
+great_expectations~=0.16.3
 apache-airflow-providers-grpc==3.0.0
 apache-airflow-providers-hashicorp==3.1.0
 apache-airflow-providers-http==4.0.0
