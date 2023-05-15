@@ -82,7 +82,6 @@ apache-airflow-providers-ftp==3.1.0
 apache-airflow-providers-github==2.1.0
 apache-airflow-providers-google==8.4.0
 airflow-provider-great-expectations~=0.2.6
-great_expectations~=0.16.3
 apache-airflow-providers-grpc==3.0.0
 apache-airflow-providers-hashicorp==3.1.0
 apache-airflow-providers-http==4.0.0
@@ -300,6 +299,7 @@ google-resumable-media==2.4.0
 googleapis-common-protos==1.56.4
 graphql-core==3.2.3
 graphviz==0.20.1
+great_expectations~=0.16.3
 greenlet==2.0.1
 grpc-google-iam-v1==0.12.4
 grpcio-gcp==0.2.2
